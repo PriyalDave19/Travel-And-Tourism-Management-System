@@ -1,0 +1,79 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 32744 bytes for ChunkPool::allocate
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+_thread_in_native, id=28396, stack(0x0000008577200000,0x0000008577300000)]
+
+
+Current CompileTask:
+C2:    722 1154   !   4       sun.font.TrueTypeFont::getTableBuffer (215 bytes)
+
+Stack: [0x0000008577200000,0x0000008577300000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x677d0a]
+V  [jvm.dll+0x7d8c54]
+V  [jvm.dll+0x7da3fe]
+V  [jvm.dll+0x7daa63]
+V  [jvm.dll+0x245c5f]
+V  [jvm.dll+0xaacc0]
+V  [jvm.dll+0xab00c]
+V  [jvm.dll+0x68b6a2]
+V  [jvm.dll+0x68b7be]
+V  [jvm.dll+0x68e10f]
+V  [jvm.dll+0x6882d6]
+V  [jvm.dll+0x687920]
+V  [jvm.dll+0x68582a]
+V  [jvm.dll+0x1a6d0c]
+V  [jvm.dll+0x1a789b]
+V  [jvm.dll+0x2aa7fc]
+V  [jvm.dll+0x690303]
+V  [jvm.dll+0x6882d6]
+V  [jvm.dll+0x687920]
+V  [jvm.dll+0x68582a]
+V  [jvm.dll+0x1a6d0c]
+V  [jvm.dll+0x1a789b]
+V  [jvm.dll+0x2aa7fc]
+V  [jvm.dll+0x690303]
+V  [jvm.dll+0x6882d6]
+V  [jvm.dll+0x687920]
+V  [jvm.dll+0x68582a]
+V  [jvm.dll+0x1a6d0c]
+V  [jvm.dll+0x2aa7fc]
+V  [jvm.dll+0x690303]
+V  [jvm.dll+0x6882d6]
+V  [jvm.dll+0x687920]
+V  [jvm.dll+0x68582a]
+V  [jvm.dll+0x1a6d0c]
+V  [jvm.dll+0x2aa7fc]
+V  [jvm.dll+0x690303]
+V  [jvm.dll+0x6882d6]
+V  [jvm.dll+0x687920]
+V  [jvm.dll+0x68582a]
+V  [jvm.dll+0x1a6d0c]
+V  [jvm.dll+0x2aa7fc]
+V  [jvm.dll+0x690303]
+V  [jvm.dll+0x6882d6]
+V  [jvm.dll+0x687920]
+V  [jvm.dll+0x68582a]
+V  [jvm.dll+0x1a6d0c]
+V  [jvm.dll+0x1a789b]
+V  [jvm.dll+0x2aa7fc]
+V  [jvm.dll+0x690303]
+V  [jvm.dll+0x6882d6]
+V  [jvm.dll+0x687920]
+V  [jvm.dll+0x68582a]
+V  [jvm.dll+0x1a6d0c]
+V  [jvm.dll+0x216fe8]
+V  [jvm.dll+0x1a3af0]
+V  [jvm.dll+0x2270be]
+V  [jvm.dll+0x22535b]
+V  [jvm.dll+0x78e7bc]
+V  [jvm.dll+0x788bba]
